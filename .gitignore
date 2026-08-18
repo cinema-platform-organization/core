@@ -3,6 +3,7 @@ dist/
 build/
 pnpm-lock.yaml
 .env
+.npmrc
 .DS_Store
 .vscode/
 .log
