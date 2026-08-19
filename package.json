@@ -1,6 +1,6 @@
 {
 	"name": "@cinema-platform/core",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Core utilities and shared setup",
 	"publishConfig": {
 		"access": "public"
@@ -9,9 +9,10 @@
 	"license": "ISC",
 	"type": "module",
 	"peerDependencies": {
-		"prettier": "^3.0.0"
+		"prettier": "^3.0.0",
+		"@trivago/prettier-plugin-sort-imports": "^5.2.2"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^5.2.2"
 	},
 	"exports": {
